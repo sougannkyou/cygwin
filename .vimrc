@@ -1,17 +1,20 @@
-colorscheme darkblue 
-
-"set fencs=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936
-"set termencoding=utf-8
-"set encoding=utf-8
-"set fileencodings=ucs-bom,utf-8,cp936
-"set fileencoding=utf-8
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" 显示相关  
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"set shortmess=atI   " 启动的时候不显示那个援助乌干达儿童的提示  
+set fenc=utf-8
+set fencs=utf-8,usc-bom,euc-jp,gb18030,gbk,gb2312,cp936
+set nocp
+set number
+set ai
+set si
+set tabstop=4
+set sw=4
+set ruler
+set incsearch
+set showmatch
+set matchtime=5
+set ignorecase
+colorscheme darkblue
+syntax on
 "winpos 5 5          " 设定窗口位置  
-"set lines=40 columns=155    " 设定窗口大小  
+set lines=40 columns=155    " 设定窗口大小  
 set go=             " 不要图形按钮  
 "color asmanian2     " 设置背景主题  
 "set guifont=Courier_New:h10:cANSI   " 设置字体  
